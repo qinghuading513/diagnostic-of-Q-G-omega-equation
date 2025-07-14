@@ -24,7 +24,7 @@ Q = term A + term B + term C + term D + term E, where the overbar denotes the mo
 diabatic.term3.f is a Fortran code to calcualte monthly Q fields using 6-h ERA5 data.
 More information on the calculation procedure is provided in the code comments.
 
-Based on these monthly fields of terms 1 to 3, we further calculate their trends in the annual mean fields using various conventional approaches, which are not detailed here.
+Based on these monthly fields of terms 1 to 3, we further calculate their linear trends in the annual mean fields using various conventional approaches, which are not detailed here.
 
 References
 
