@@ -4,10 +4,10 @@ This contains a set of Fortran codes used to diagnose the contributions of three
 <img width="1680" height="204" alt="image" src="https://github.com/user-attachments/assets/ff507f2e-47e0-48fc-8eb8-2c419f2aebef" />
 
  
-omega.term1.f is a Fortran code to calcualte term1 (Vg∙∇p (ζg+f)) in our Eq.1. 
+omega.term1.f is a Fortran code to calcualte term1 ( Vg∙∇p (ζg+f) in our Eq.1 ) using daily ERA5 data. 
 More information on the calculation procedure is provided in the code comments
  
-omega.term2.f is a Fortran code to calcualte term2 (Vg∙∇p T) in our Eq.1. 
+omega.term2.f is a Fortran code to calcualte term2 (Vg∙∇p T in our Eq.1) using daily ERA5 data. 
 More information on the calculation procedure is provided in the code comments
 
 
@@ -19,9 +19,10 @@ To clacuate the diabatic heating term Q ( term 3 in Eq.1), we follow the equatio
 
 
 
-Q = term A + term B + term C + term D + term E
+Q = term A + term B + term C + term D + term E 
+In this equation, the overbar denotes the monthly average, and the prime indicates the deviation of the 6-h data from the monthly average.
 
-diabatic.term3.f is a Fortran code to calcualte Q.  
+diabatic.term3.f is a Fortran code to calcualte Q using 6-h ERA5 data.
 More information on the calculation procedure is provided in the code comments
 
 
