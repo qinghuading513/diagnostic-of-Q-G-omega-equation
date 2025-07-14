@@ -4,11 +4,14 @@ This contains a set of Fortran codes used to diagnose the contributions of three
 <img width="1680" height="204" alt="image" src="https://github.com/user-attachments/assets/ff507f2e-47e0-48fc-8eb8-2c419f2aebef" />
 
  
- omega.term1.f is a Fortran code to calcualte term1 (Vg∙∇p (ζg+f)) in our Eq.1. more informaiton of the calcualtioon procedue are commented in the code
- omega.term2.f is a Fortran code to calcualte term2 (Vg∙∇p T) in our Eq.1. more informaiton of the calcaultion procedue are commented in the code
+omega.term1.f is a Fortran code to calcualte term1 (Vg∙∇p (ζg+f)) in our Eq.1. 
+More information on the calculation procedure is provided in the code comments
+ 
+omega.term2.f is a Fortran code to calcualte term2 (Vg∙∇p T) in our Eq.1. 
+More information on the calculation procedure is provided in the code comments
 
 
-To clacuate the diabtic heating term ( term 3 in Eq.1), we follow oow the equation descibe in Nigam et al. 2010., whcih is adpated here 
+To clacuate the diabatic heating term Q ( term 3 in Eq.1), we follow the equation described in Nigam et al. (2000), which is adapted here.
  
 
 
@@ -16,9 +19,15 @@ To clacuate the diabtic heating term ( term 3 in Eq.1), we follow oow the equati
 
 
 
-Q=term A+ term B + term C + term D + term E
+Q = term A + term B + term C + term D + term E
 
-diabtic.f is a Fortran code to calcualte Q.  more informaiton of the calcaultion procedue are commented in the code
+diabatic.term3.f is a Fortran code to calcualte Q.  
+More information on the calculation procedure is provided in the code comments
 
 
-list.f is a Fortan code to calcualte linear trend , whci extneve used in our study
+list.f is used to calculate linear trends, which were extensively used in our study.
+
+
+Reference
+Nigam, S., C. Chung, and E. DeWeaver, 2000: ENSO Diabatic Heating in ECMWF and NCEP–NCAR Reanalyses, and NCAR CCM3 Simulation. J. Climate, 13, 3152–3171,
+
