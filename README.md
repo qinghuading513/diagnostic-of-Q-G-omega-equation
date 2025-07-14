@@ -25,9 +25,6 @@ diabatic.term3.f is a Fortran code to calcualte Q using 6-h ERA5 data.
 More information on the calculation procedure is provided in the code comments.
 
 
-lineartrend.f is used to calculate linear trends in our study.
-
-
 Reference
 Nigam, S., C. Chung, and E. DeWeaver, 2000: ENSO Diabatic Heating in ECMWF and NCEP–NCAR Reanalyses, and NCAR CCM3 Simulation. J. Climate, 13, 3152–3171,
 
