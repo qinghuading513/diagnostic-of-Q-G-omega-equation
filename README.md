@@ -11,7 +11,7 @@ omega.term2.f is a Fortran code to calcualte term2 (Vg∙∇p T in our Eq.1) usi
 More information on the calculation procedure is provided in the code comments.
 
 
-To clacuate the diabatic heating term Q ( term 3 in Eq.1), we follow the equation described in Nigam et al. (2000), which is adapted here.
+To calculate the diabatic heating term Q ( term 3 in Eq.1), we follow the equation described in Nigam et al. (2000), which is adapted here.
  
 
 
