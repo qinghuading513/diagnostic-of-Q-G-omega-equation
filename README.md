@@ -24,6 +24,22 @@ Q = term A + term B + term C + term D + term E, where the overbar denotes the mo
 diabatic.term3.f is a Fortran code to calcualte monthly Q fields using 6-h ERA5 data.
 More information on the calculation procedure is provided in the code comments.
 
+lib.f is a code library that supports the calcualtion of vairous operators.
+
+Ro run these codes, a Fortran compiler ( such as the intel ifort compiler ) is required.
+
+To compile omega.term1.f, please use the following command
+
+ifort omega.term1.f lib.f
+
+To compile omega.term2.f, please use the following command
+
+ifort omega.term2.f lib.f
+
+to compile diabatic.term3.f, please use the following command
+
+ifort dibatictic.term3.f
+
 Based on these monthly fields of terms 1 to 3, we further calculate their linear trends in the annual mean fields using various conventional approaches, which are not detailed here.
 
 References
