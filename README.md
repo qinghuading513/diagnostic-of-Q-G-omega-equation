@@ -27,6 +27,7 @@ More information on the calculation procedure is provided in the code comments.
 Based on these monthly fields of terms 1 to 3, we further calculate their trends in the annual mean fields using various conventional approaches, which are not detailed here.
 
 References
+
 Holton, J. R.,2012: An Introduction to Dynamic Meteorology (4th ed.). Academic Press.
 Nigam, S., C. Chung, and E. DeWeaver, 2000: ENSO Diabatic Heating in ECMWF and NCEP–NCAR Reanalyses, and NCAR CCM3 Simulation. J. Climate, 13, 3152–3171,
 
