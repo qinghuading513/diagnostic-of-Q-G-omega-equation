@@ -4,10 +4,10 @@ This contains a set of Fortran codes used to diagnose the contributions of three
 <img width="1680" height="204" alt="image" src="https://github.com/user-attachments/assets/ff507f2e-47e0-48fc-8eb8-2c419f2aebef" />
 
  
-omega.term1.f is a Fortran code to calcualte term1 on a monthly basis ( Vg∙∇p (ζg+f) in our Eq.1 ) using daily ERA5 data. 
+omega.term1.f is a Fortran code to calculate term1 on a monthly basis ( Vg∙∇p (ζg+f) in our Eq.1 ) using daily ERA5 data. 
 More information on the calculation procedure is provided in the code comments.
  
-omega.term2.f is a Fortran code to calcualte term2 on a monthly basis (Vg∙∇p T in our Eq.1) using daily ERA5 data. 
+omega.term2.f is a Fortran code to calculate term2 on a monthly basis (Vg∙∇p T in our Eq.1) using daily ERA5 data. 
 More information on the calculation procedure is provided in the code comments.
 
 
@@ -21,7 +21,7 @@ To calculate the diabatic heating term Q ( term 3 in Eq.1), we follow the equati
 
 Q = term A + term B + term C + term D + term E, where the overbar denotes the monthly average, and the prime indicates the deviation of the 6-h data from the monthly average.
 
-diabatic.term3.f is a Fortran code to calcualte monthly Q fields using 6-h ERA5 data.
+diabatic.term3.f is a Fortran code to calculate monthly Q fields using 6-h ERA5 data.
 More information on the calculation procedure is provided in the code comments.
 
 lib.f is a code library that supports the calcualtion of vairous operators.
