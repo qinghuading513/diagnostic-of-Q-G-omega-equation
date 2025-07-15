@@ -36,7 +36,7 @@ To compile omega.term2.f, please use the following command
 
 ifort omega.term2.f lib.f
 
-to compile diabatic.term3.f, please use the following command
+To compile diabatic.term3.f, please use the following command
 
 ifort diabatic.term3.f
 
