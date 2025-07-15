@@ -11,7 +11,7 @@ omega.term2.f is a Fortran code to calculate term2 on a monthly basis (Vg∙∇p
 More information on the calculation procedure is provided in the code comments.
 
 
-To calculate the diabatic heating term Q ( term 3 in Eq.1), we follow the equation described in Nigam et al. (2000), which is adapted here.
+To calculate the diabatic heating term Q ( term 3 in Eq.1), we follow the equation from Nigam et al. (2000), using vertical motion (omega) and potential temperature (theta), as adapted here. 
  
 
 
