@@ -1,5 +1,5 @@
 # diagnostics of the Q-G omega equation 
-This contains a set of Fortran codes used to diagnose the contributions of three processes to the long-term trends in vertical motion over the region of interest, based on the traditional Q-G omega equation (Eq. 1: slightly modified from Eq. 6.34 in Holton 2004, and the formulation from Nigam et al. 2000) and ERA5 daily (or 6-hourly, 1.5 by 1.5 horizontal resolution) data from 1980 to 2020:
+This folder contains a set of Fortran codes used to diagnose the contributions of three processes to the long-term trends in vertical motion over the region of interest, based on the traditional Q-G omega equation (Eq. 1: slightly modified from Eq. 6.34 in Holton 2004, and the formulation from Nigam et al. 2000) and ERA5 daily (or 6-hourly, 1.5 by 1.5 horizontal resolution) data from 1980 to 2020:
 
 <img width="1680" height="204" alt="image" src="https://github.com/user-attachments/assets/ff507f2e-47e0-48fc-8eb8-2c419f2aebef" />
 
