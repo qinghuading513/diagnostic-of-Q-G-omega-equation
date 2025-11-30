@@ -40,7 +40,7 @@ To compile diabatic.term3.f, please use the following command
 
 ifort diabatic.term3.f
 
-Based on these monthly fields of terms 1 to 3, we further calculate their linear trends in the annual mean fields using various conventional approaches, which are not detailed here.
+Based on these monthly fields of terms 1 to 3, we further calculate their linear trends in the annual mean fields using various conventional approaches, which are listed below.
 
 
 References
