@@ -40,8 +40,11 @@ To compile diabatic.term3.f, please use the following command
 
 ifort diabatic.term3.f
 
-Based on these monthly fields of terms 1 to 3, we further calculate their linear trends in the annual mean fields using various conventional approaches, which are listed below.
+Based on the monthly fields of terms 1–3, we further calculate their linear trends and related relationships using the following code and their annual-mean fields.
 
+trend.f is used to calculate linear trends of 2-D fields over a given time interval
+
+corr.f computes the Pearson correlation between two fields at every grid point 
 
 References
 
